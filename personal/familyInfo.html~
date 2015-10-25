@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+ <head>
+     <title>My Personal Webpage</title>
+     <link rel="stylesheet" type="text/css" href="myStyles.css" media="screen" />
+ </head>
+ <body>
+     <div class="main">
+        
+         <div class="header">
+        </div>
+        
+        <div class="navBar">
+            <ul>
+                <li> <a href="index.html"> <span>My Profile</span> </a> </li>
+                <li> <a href="" class="active"> <span>Family Info</span> </a> </li>
+                <li> <a href="myFriends.html">  <span>Friends</span> </a> </li>
+            </ul>
+        </div> 
+        
+        <div class="left-panel">
+            
+        </div>
+
+        <div class="right-panel">
+            <h2> About My Family! </h2>
+                <p> <span style="margin-left: 60px;">We</span> are just a simple but a happy family. We are six siblings and I were the second to last or the second youngest. My mom's name is Richelda Alvarado and unfortunately my father is already deceased since 2011. My brothers are Erwin Alvarado and Edwin Alvarado Jr., and my sisters are Kessie Alvarado, Katrina Alvarado, Karie Alvarado (youngest). We lived peacefully on Tacondo Pulungmasle Guagua Pampanga.</p>
+
+                <table border="2px solid white" id="gallery">
+                    <tr>
+                        <th>Mom</th>
+                        <th>Kessie</th>
+                        <th>Katrina</th>
+                        <th>Erwin</th>
+                        <th>Edwin</th>
+                        <th>Karie</th>
+                    </tr>
+                    <tr>
+                        <td><img src="img/mom.png"></td>
+                        <td><img src="img/kessie.png"></td>
+                        <td><img src="img/kat.png"></td>
+                        <td><img src="img/erwin.png"></td>
+                        <td><img src="img/jun.png"></td>
+                        <td><img src="img/kar.jpg"></td>
+                    </tr>
+                </table>
+        </div>
+     </div>
+ </body>
+</html>

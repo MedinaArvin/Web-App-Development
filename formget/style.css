@@ -1,0 +1,10 @@
+body{
+	background: url('img24.jpg');
+	background-repeat: no-repeat;
+}
+#what{
+	margin:50px 150px 0px 380px;
+}
+table {background-color:white;border-radius: 5px;opacity: 0.9;}
+td {padding:5px;}
+h1{color:#2F2F2F;font-family: Gerogia, sans-serif; font-style: italic;}

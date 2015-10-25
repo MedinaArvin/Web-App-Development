@@ -1,0 +1,95 @@
+.main {
+        margin: 0 auto;
+        border: 1px solid black;
+        height: 649px;
+        font-family: "Helvitica", Georgia, serif;
+        background-image: url("wallpaper.jpg");
+        z-index: -1;
+    }
+    .header {
+        margin: 10px;
+        border-bottom: 1px solid white;
+        height: 150px;
+        background-image: url("img/banner1.jpg");
+        background-size: 1310px 150px;
+        background-repeat: no-repeat;
+    }
+    .navBar {
+        float: right;
+        padding-right: 50px;
+        display: inline;
+    }
+    .navBar ul {
+        list-style-type: none;
+    }
+    .navBar li {
+        display: inline-block;
+        margin: 0px 10px 0px 10px;
+    }
+    .navBar li span{
+        color: rgb(129, 129, 129);
+    }
+    a {
+        text-decoration: none;
+    }
+    .navBar li a.active span {
+        color: white;
+        text-decoration: underline;
+    }
+    .left-panel {
+        background-image: url("arvin.jpg");
+        background-size: 200px 200px;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        margin: 80px 10px 0px 50px;
+        border: 2px solid white;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        float: left;
+    }
+    .right-panel {
+        padding: 5px;
+        border: 1px solid rgb(68, 68, 68);
+        top: 10%;
+        left: 300px;
+        width: 70%;
+        height: 320px;
+        position: relative;
+        float: right;
+        color: lightgrey;
+        border-bottom-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+    .right-panel h2, p {
+        margin-left: 20px;
+        line-height: 25px;
+    }
+    .right-panel #me {
+        margin-left: 60px;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    .right-panel img {
+        height: 40px;
+        width: auto;
+    }
+    .right-panel h2, p {
+        margin-left: 20px;
+        line-height: 25px;
+    }
+    table#gallery {
+        padding: 10px;
+        margin-left: 50px;
+        color: white;
+    }
+    table#gallery th {
+        width: 120px;
+    }
+    table#gallery td {
+        height: 70px;
+    }
+    table#gallery img {
+        height: 70px;   
+        width: 120px;
+    }

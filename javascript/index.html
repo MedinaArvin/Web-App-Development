@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myBlog</title>
+	<script type="text/javascript" src='javascript.js'></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id='main'>
+		<div id='left-panel'>
+			<h3>Title:</h3>
+			<input type='text' name='title' id='title_input' placeholder='title...'>
+			<h3>Author:</h3>
+			First Name:&nbsp;<input type='text' name='fname' id='fname_input' placeholder='firstname...'><br /><br>
+			Middle Name:&nbsp;<input type='text' name='mname' id='mname_input' placeholder='middlename...'><br /><br>
+			Last Name:&nbsp;<input type='text' name='lname' id='lname_input' placeholder='lastname...'>
+			<h3>Content:</h3>
+			<textarea name = 'content' id='content_input' placeholder='content...'></textarea><br><br>
+			<button type='submit' onclick='display()'>submit</button>
+		</div>
+		<div id='right-panel'>
+
+			<h3>Title</h3>
+			<p style="font-size:30px;" id='title'></p>
+			<h3>Author</h3>
+			<h4>Full Name:</h4><p id='fullname'></p>
+			<h3>Content</h3>
+			<p id='content'></p>
+			<p id = 'date'></p>
+		</div>
+	</div>
+</body>
+</html>
